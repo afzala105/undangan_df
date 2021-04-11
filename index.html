@@ -1,0 +1,272 @@
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.82.0">
+    <title>Dheni &amp; Futkhatul</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/cover/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- animation dan icon -->
+    <link rel="stylesheet" href="animate.css" />
+    <link rel="stylesheet" href="icomoon.css" />
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 4rem;
+        }
+        * {
+          font-size: 1.2rem;
+        }
+        .kecil {
+          font-size: 22rem;
+        }
+      
+      }
+      h1 {
+        font-weight: bold;
+      }
+      
+      p {
+        font-family: arial;
+      }
+      .hilang {
+        display: none;
+      }
+      .shadow-gone {
+        text-shadow: 0 0 0 rgb(0, 0, 0, 0);
+      
+        background: rgb(255, 255, 255, .8);
+        padding: ;
+        border-radius: 5%;
+      }
+      .isi {
+        
+        margin: 30px auto;
+        padding: ;
+        text-shadow: 0 0 0 #000;
+        color: #fff;
+        border: 1px solid #000;
+        /*
+        border: 1px solid #000;
+        padding: 20px;
+        border-radius: 5%;
+        */
+      }
+     .kecil {
+        font-size: .8rem;
+      }
+      .fr {
+        
+        font-family: arial;
+        border: 1px solid #000;
+        padding: ;
+        
+      }
+      #gmp {
+        border: 1px solid #000;
+      }
+    </style>
+
+    
+    <!-- Custom styles for this template -->
+    <link href="cover.css" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+
+ <link rel="stylesheet" type="text/css" href="simplyCountdown.theme.default.css" />
+ <script src="simplyCountdown.min.js"></script>
+<script src="gmaps.js"></script>
+<script>
+        // fungsi initialize untuk mempersiapkan peta
+        function initialize() {
+        var propertiPeta = {
+            center:new google.maps.LatLng(-7.042566, 109.631493),
+            zoom:18,
+            mapTypeId:google.maps.MapTypeId.ROADMAP
+        };
+        
+        var peta = new google.maps.Map(document.getElementById("gmp"), propertiPeta);
+        
+        // membuat Marker
+        var marker=new google.maps.Marker({
+          position: new google.maps.LatLng(-7.042566,109.631493),
+          map: peta
+  });
+        
+        }
+
+        // event jendela di-load  
+        google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
+
+
+  </head>
+  <body class="d-flex h-100 text-center text-white bg-success">
+    
+<div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+  <header class="mb-auto">
+     
+  </header>
+
+  <main class="px-3">
+    
+    <div id="home" class="animate__animated">
+    <h1>Dheni &amp; Futkhatul</h1>
+    <p class="lead">Kami mengundang Bapak/Ibu/Saudara/Saudari untuk hadir di Pernikahan kami.</p>
+    
+    <p class="lead">
+      <a href="javascript:void(0)" class="btn btn-lg btn-secondary bg-white" onClick="tampilakad()">Buka Undangan</a>
+    </p>
+    
+<div class="fr">
+        <span class="count">
+          
+        </span>
+      </div>
+    
+    </div>
+    
+    <div id="akad" class="hilang">
+      
+      <p class="">
+        Assalamu 'alaikum Wr. Wb.
+      </p>
+      <p class="">
+        Dengan memohon rahmat dan ridho Allah SWT, Kami mengatur resepsi pernikahan
+      </p>
+      <div class="isi animate__animated animate__fadeIn animate__delay-1s card bg-transparent">
+        <div class="card-body">
+      <h1>
+        Dheni Prasetyo
+      </h1>
+      <p class="">
+        Putra kedua Bapak Suyitno dan Ibu Suparti
+      </p>
+      <h3>dengan</h3>
+      <h1>
+        Futkhatul Janah
+      </h1>
+      <p class="">
+        Putri pertama Bapak Sunardi dan Ibu Suci Harniti
+      </p>
+      </div>
+      </div>
+      <p class="">yang Insya Allah akan dilaksanakan pada</p>
+    <div class="row animate__animated animate__fadeIn animate__delay-1s">
+    <div class="card text-dark shadow-gone col-12 col-md-6 mr-2">
+      <div class="card-body">
+        <p class="">
+          Akad Nikah
+        </p>
+        <p class="">
+         pukul 09.00 - Selesai
+        </p>
+        <p class="">
+          di kediaman mempelai putri
+        </p>
+      </div>
+    </div>
+    <div class="card text-dark shadow-gone col-12 col-md-6 ml-2">
+      <div class="card-body">
+        <p class="">
+          Resepsi Pernikahan
+        </p>
+        <p class="">
+         pukul 11.00 - Selesai
+        </p>
+        <p class="">
+          di kediaman mempelai putri
+        </p>
+      </div>
+    </div>
+    </div>
+    <br/>
+    <p>
+      merupakan suatu kebahagiaan dan kehormatan bagi Kami, apabila Bapak/Ibu/Saudara/Saudari berkenan hadir untuk memberikan do'a restu.
+    <br />
+      Atas kehadiran dan do'a restu, Kami ucapkan terima kasih
+    </p>
+    <p>
+      Wassalamu 'alaikum Wr. Wb.
+    </p>
+    <br>
+    <div id="peta">
+     <div id="gmp" style="width:100%;height:380px;" alt="document.location.href='https://maps.app.goo.gl/Fr94MmNqms94LBbZ6'">
+        
+      </div>
+      <button type="button" class="btn btn-light mt-1" style="width:100%;" onClick="if(confirm('Anda akan dialihkan ke Maps, lanjutkan ?')){document.location.href='https://maps.app.goo.gl/Fr94MmNqms94LBbZ6'}">Buka di Maps</button>
+      </div>
+    <br>
+    <div class="animate__animated animate__fadeIn animate__delay-1s card shadow-gone text-dark">
+      <div class="card-body">
+       <p>
+         <i>
+         
+         "Semoga Allah menghimpun yang terserak dari keduanya. Memberkahi mereka berdua dan kiranya Allah meningkatkan kualitas keturunan mereka, menjadikannya pembuka pintu rahmat, sumber ilmu dan hikmah, dan pemberi rasa aman bagi umat."
+         
+         </i>
+       </p>
+       <hr>
+       <p class="kecil">
+         
+         Doa Nabi Muhammad SAW, pada pernikahan putrinya Fatimah Az Zahra dengan Ali bin Abi Thalib
+         
+       </p>
+      </div>
+    </div>
+    
+    </div>
+    <br>
+    <br>
+  </main>
+
+  <footer class="mt-auto text-white-50">
+    <p>dibuat dengan hati <a href="javascript:void(0)" onclick="alert('Ayo kunjungi kami');" class="text-white">YUKInvite</a>.</p>
+  </footer>
+</div>
+
+<script type="text/javascript">
+  
+  var home = document.getElementById('home');
+  
+  var akad = document.getElementById('akad');
+  
+  function tampilakad(){
+    home.classList.add('hilang');
+    akad.classList.remove('hilang');
+    akad.classList.add('animate__animated');
+    akad.classList.add('animate__flipInY');
+    
+  }
+  </script>
+  <script type="text/javascript">
+  var d = new Date(new Date().getTime() + 200 * 120 * 120 * 2000);
+  
+    simplyCountdown('.count', {
+      year : 2021,
+      month : 5,
+      day : 18,
+      hours: 9
+    });
+  </script>
+
+  </body>
+</html>
